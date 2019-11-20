@@ -9,8 +9,8 @@
    $email_subject = "New Form Submission";
    
    $email_body = "User name: $name.\n"
-                  "User Email: $visitor_email.\n"
-                     "User Message: 4message.\n";
+                  "User Email: $visitor_email.\n".
+                     "User Message: $message.\n";
                      
                 
    $to = "byjiyeon23@gmail.com";
