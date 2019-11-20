@@ -1,26 +1,27 @@
-<div class="container">  
-  <form id="contact" action="" method="post">
-    <h3>Quick Contact</h3>
-    <h4>Contact us today, and get reply with in 24 hours!</h4>
-    <fieldset>
-      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Your Email Address" type="email" tabindex="2" required>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
-    </fieldset>
-    <fieldset>
-      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
-    </fieldset>
-    <fieldset>
-      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-    </fieldset>
-  </form>
- 
-  
-</div>
+<?php
+   $name = $_POST['name'];
+   $visitor_email = $_POST['email'];
+   $message = $_POST['message'];
+   
+   
+   $email_from = 'jiyeonyoga.com';
+   
+   $email_subject = "New Form Submission";
+   
+   $email_body = "User name: $name.\n"
+                  "User Email: $visitor_email.\n"
+                     "User Message: 4message.\n";
+                     
+                
+   $to = "byjiyeon23@gmail.com";
+   
+   $headers = "From: $email_from \r\n";
+   
+   $headers .= "Reply-To": $visitor_email \r\n";
+   
+   mail($to,$email_subject,$email_body,$headers);
+   
+   header("Location: contact.html");
+   
+   
+   ?>
