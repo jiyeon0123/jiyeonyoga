@@ -148,10 +148,10 @@
 
                     <form class="contact-form">
                         <form id="contact-form" method="post" action="contact.php">
-                        <input type="text" placeholder="name">
-                        <input type="email" placeholder="email">
-                        <textarea rows="18" cols="6" placeholder="message"></textarea>
-                        <input type="submit" value="Send">
+                        <input name="name" type="text" class="form-control" placeholder="name" required>
+                        <input name="email" type="email" class="form-control" placeholder="email" required>
+                        <textarea name="message" class="form-control placeholder="Message" rows="18" cols="6" required></textarea>
+                        <input type="submit" class="form-control submit" value="SEND MESSAGE">
                     </form><!-- .contact-form -->
                 </div><!-- .content-wrap -->
             </div><!-- .col -->
