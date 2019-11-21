@@ -11,7 +11,7 @@ if(!empty($_POST['send'])) {
    
                      
                 
-   $to = "c.nicolas662@gmail.com";
+   $to = "byjiyeon23@gmail.com";
    
    $headers = "From:" . $name . "<". $visitor_email . ">\r\n";
    
