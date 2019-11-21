@@ -13,13 +13,16 @@
                      "User Message: $message.\n";
                      
                 
-   $to = "byjiyeon23@gmail.com";
+   $to = "c.nicolas662@gmail.com";
    
    $headers = "From: $email_from \r\n";
    
    $headers .= "Reply-To": $visitor_email \r\n";
    
-   mail($to,$email_subject,$email_body,$headers);
+   if (mail($to,$email_subject,$email_body,$headers)){
+      $message = "Your message has been sent successfully";
+      $type = "success";
+     }
    
    header("Location: contact.html");
    
