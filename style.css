@@ -34,15 +34,15 @@ img {
 # Links
 --------------------------------------------------------------*/
 a {
-    color: royalblue;
+    color: rgb(8, 8, 8);
 }
 
 a:visited {
-    color: purple;
+    color: rgb(14, 13, 14);
 }
 
 a:hover, a:focus, a:active {
-    color: midnightblue;
+    color: rgb(8, 8, 8);
 }
 
 a:focus {
