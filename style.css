@@ -11,12 +11,8 @@
 }
 
 @font-face {
-    font-family: 'BeyondTheMountains';
-    src: url('fonts/BeyondTheMountains.eot?#iefix') format('embedded-opentype'),
-    url('fonts/BeyondTheMountains.otf')  format('opentype'),
-    url('fonts/BeyondTheMountains.woff') format('woff'),
-    url('fonts/BeyondTheMountains.ttf')  format('truetype'),
-    url('fonts/BeyondTheMountains.svg#BeyondTheMountains') format('svg');
+    font-family: 'Noto Sans KR', sans-serif;
+    src: <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">;
     font-weight: normal;
     font-style: normal;
 }
