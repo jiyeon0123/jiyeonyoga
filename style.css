@@ -1055,7 +1055,7 @@ a:hover, a:active {
 .pagination li a:hover,
 .pagination li.active a {
     color: #fff;
-    background: #2f2f2f;
+    background: #fff;
 }
 
 /*--------------------------------------------------------------
