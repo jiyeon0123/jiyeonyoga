@@ -458,6 +458,8 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # category page
 ----------------------------------------------------------------*/
+
+
 .column {
     float: left;
   }
@@ -469,7 +471,7 @@ a:hover, a:active {
   .middle {
     width: 50%;
   }
-  
+
 /*--------------------------------------------------------------
 # Homepage
 --------------------------------------------------------------*/
@@ -692,6 +694,8 @@ a:hover, a:active {
 .about-page .content-wrap p,
 .blog-page .content-wrap p {
     margin-bottom: 34px;
+    width: 500px;
+    margin-left: 170px;
 }
 
 .blog-page-half-img {
