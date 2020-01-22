@@ -498,15 +498,6 @@ a:hover, a:active {
     color: #2f2f2f;
 }
 
-.single-page .content-wrap .tags-links {
-    margin-top: 35px;
-}
-
-.single-page .content-wrap .tags-links a {
-    margin-right: 15px;
-    font-size: 16px;
-    color: #afafaf;
-}
 
 .single-page .content-wrap .featured-image {
     margin-top: 42px;
@@ -965,15 +956,7 @@ a:hover, a:active {
     color: #2f2f2f;
 }
 
-.recent-post-wrap .tags-links {
-    margin-top: 12px;
-}
 
-.recent-post-wrap .tags-links a {
-    margin-right: 5px;
-    font-size: 12px;
-    color: #afafaf;
-}
 
 @media screen and (min-width: 576px) {
     .recent-post-wrap {
@@ -996,31 +979,6 @@ a:hover, a:active {
     }
 }
 
-/*--------------------------------------------------------------
-# Sidebar Tags
---------------------------------------------------------------*/
-.sidebar .tags-list {
-    margin-top: 100px;
-    text-align: center;
-}
-
-.sidebar .tags-list a {
-    display: inline-block;
-    margin-right: 7px;
-    margin-bottom: 7px;
-    padding: 14px 25px;
-    font-size: 11px;
-    color: #fff;
-    background: #2f2f2f;
-    text-transform: uppercase;
-    letter-spacing: 0.08rem;
-}
-
-@media screen and (min-width: 576px) {
-    .sidebar .tags-list {
-        text-align: left;
-    }
-}
 
 /*--------------------------------------------------------------
 # Sidebar Ads
@@ -1118,15 +1076,7 @@ a:hover, a:active {
     color: #2f2f2f;
 }
 
-.footer-post-cont .tags-links {
-    margin-top: 12px;
-}
 
-.footer-post-cont .tags-links a {
-    margin-right: 5px;
-    font-size: 12px;
-    color: #afafaf;
-}
 
 .footer-post-cont .read-more {
     display: inline-block;
