@@ -592,6 +592,19 @@ body{
     text-align: left;
 }
 
+.single-page .content-wrap .entry-content p7 {
+    font-size: 14px;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.single-page .content-wrap .entry-content p8 {
+    font-size: 14px;
+    line-height: 2rem;
+    text-align: left;
+    font-style: italic;
+}
+
 .single-page .blockquote-text {
     padding-left: 114px;
     margin-top: 84px;
@@ -666,9 +679,25 @@ body{
     color: #afafaf;
 }
 
+
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
 @media screen and (min-width: 992px){
     .single-page {
-        padding-top: 0;
+        padding-top: 0; ;
     }
 
     .post-share {
@@ -687,23 +716,10 @@ body{
     .comments-count {
         width: calc(50% - 100px);
     }
+
 }
 
 
-.iframe-container{
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; 
-    height: 0;
-  }
-  .iframe-container iframe{
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  
 /*--------------------------------------------------------------
 # Page Header
 --------------------------------------------------------------*/
