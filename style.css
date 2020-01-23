@@ -584,8 +584,8 @@ body{
 
 .single-page .content-wrap .entry-content {
     margin-top: 36px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 220px;
+    margin-right: 220px;
 }
 
 .single-page .content-wrap .entry-content p {
@@ -671,6 +671,8 @@ body{
 @media screen and (min-width: 992px){
     .single-page {
         padding-top: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .post-share {
