@@ -584,6 +584,8 @@ body{
 
 .single-page .content-wrap .entry-content {
     margin-top: 36px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .single-page .content-wrap .entry-content p {
