@@ -468,6 +468,7 @@ body{
    width: 100%;
 }
 
+
 .gridWrapper{
     display: grid;
     justify-content: center;
@@ -477,6 +478,17 @@ body{
     box-sizing: border-box;
     grid-gap: 30px;
     margin-top: 200px;
+}
+
+.gridWrapper-2{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    padding: 30px;
+    box-sizing: border-box;
+    grid-gap: 30px;  
+    margin-top: 30px;
 }
 
 .card{
@@ -524,6 +536,42 @@ body{
 
 }
 
+.post-navigation{
+    display: block;
+    position: relative;
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+.nav-next{
+    float: right;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+
+.nav-previous{
+    float: left;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+
+.post-navigation a {
+    color: #2e2e2e;
+    text-align: center;
+    display: block;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1em;
+    letter-spacing: 1px;
+    padding: 22px;
+}
+
 @media screen and (max-width: 820px){
     .gridWrapper{
         height: 100%;
@@ -543,8 +591,38 @@ body{
             grid-template-columns: auto;
             box-sizing: border-box;
         }
+       
 }
+
 }
+
+@media screen and (max-width: 820px){
+    .gridWrapper-2{
+        height: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: auto auto;
+        box-sizing: border-box;
+    }
+    
+    @media screen and (max-width: 520px){
+        .gridWrapper-2{
+            height: 100%;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-template-columns: auto;
+            box-sizing: border-box;
+        }
+       
+}
+
+}
+
+
+
+
 
 
 /*--------------------------------------------------------------
