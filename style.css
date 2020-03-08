@@ -21,6 +21,8 @@
     font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap');
+
 body {
     color: #2f2f2f;
     font-family: 'HelveticaNeueLTPro-Md';
@@ -668,19 +670,25 @@ body{
     font-size: 14px;
     line-height: 2rem;
     text-align: left;
+    font-family: 'Nanum Myeongjo';
+    color:#333333; 
 }
 
 .single-page .content-wrap .entry-content p7 {
     font-size: 14px;
     line-height: 2rem;
     text-align: center;
+    font-family: 'Nanum Myeongjo';
+    color:#333333;
 }
 
 .single-page .content-wrap .entry-content p8 {
     font-size: 14px;
     line-height: 2rem;
     text-align: left;
+    font-family: 'Nanum Myeongjo';
     font-style: italic;
+
 }
 
 .single-page .blockquote-text {
@@ -778,6 +786,7 @@ body{
         padding-top: 0; ;
     }
 
+
     .post-share {
         margin-top: 0;
     }
@@ -797,6 +806,8 @@ body{
 
 }
 
+       
+
 
 /*--------------------------------------------------------------
 # Page Header
@@ -810,7 +821,7 @@ body{
 
 .page-header h1 {
     font-size: 72px;
-    font-family: 'BeyondTheMountains';
+    font-family: 'Nanum Myeongjo';
     color: #fff;
 }
 
