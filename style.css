@@ -793,6 +793,7 @@ body{
 
     .content-wrap a.read-more {
         margin-top: 0;
+
     }
 
     .comments-count {
@@ -821,7 +822,7 @@ body{
 
 .page-header h1 {
     font-size: 72px;
-    font-family: 'Nanum Myeongjo';
+    font-family: 'BeyondTheMountains';
     color: #fff;
 }
 
@@ -1215,6 +1216,8 @@ body{
         min-width: 100%;
     }
 }
+
+
 
 /*--------------------------------------------------------------
 # Footer Bar
