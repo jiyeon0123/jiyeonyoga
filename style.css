@@ -1174,50 +1174,51 @@ body{
 --------------------------------------------------------------*/
 .footer-instagram {
     margin-top: 60px;
-}
-
-.footer-instagram figure {
+    margin: 0 auto;
+    }
+    
+    .footer-instagram figure {
     width: 33.333333%;
     margin: 0;
-}
-
-.footer-instagram figure img {
+    }
+    
+    .footer-instagram figure img {
     display: block;
     width: 100%;
-}
-
-@media screen and (min-width: 576px){
-    .footer-instagram figure {
-        width: 25%;
-        margin: 0;
     }
-}
-
-@media screen and (min-width: 768px){
+    
+    @media screen and (min-width: 576px){
     .footer-instagram figure {
-        width: 20%;
-        margin: 0;
+    width: 25%;
+    margin: 0;
     }
-}
-
-@media screen and (min-width: 992px){
+    }
+    
+    @media screen and (min-width: 768px){
     .footer-instagram figure {
-        width: auto;
-        margin: 0;
+    width: 20%;
+    margin: 0;
     }
-}
-
-@media screen and (min-width: 1200px){
+    }
+    
+    @media screen and (min-width: 992px){
+    .footer-instagram figure {
+    width: auto;
+    margin: 0;
+    }
+    }
+    
+    @media screen and (min-width: 1200px){
     .footer-instagram {
-        margin-top: 100px;
+    margin-top: 100px;
     }
-
+    
     .footer-instagram figure img {
-        display: block;
-        width: 100%;
-        min-width: 100%;
+    display: block;
+    width: 100%;
+    min-width: 100%;
     }
-}
+    }
 
 
 
