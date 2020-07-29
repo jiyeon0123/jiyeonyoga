@@ -633,6 +633,8 @@ body{
 .single-page {
     padding-top: 165px;
     padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .single-page .content-wrap {
@@ -784,6 +786,7 @@ body{
 @media screen and (min-width: 992px){
     .single-page {
         padding-top: 0; ;
+        width: 980px;
     }
 
 
