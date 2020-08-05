@@ -451,7 +451,7 @@ a:hover, a:active {
 }
 @media screen and (min-width: 992px){
     .yt-subscribe {
-        bottom: -200px;);
+        bottom: -200px;
         text-align: center;
     }
 }
@@ -1024,6 +1024,7 @@ body{
 --------------------------------------------------------------*/
 .sidebar {
     margin-top: 110px;
+    
 }
 
 .single-page .sidebar {
