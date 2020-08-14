@@ -225,6 +225,7 @@ a:hover, a:active {
     margin: 0 auto;
     transition: .5s ease-in-out;
     cursor: pointer;
+    background: white;
 }
 
 .hamburger-menu span {
