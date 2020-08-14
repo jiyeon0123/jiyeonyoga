@@ -26,6 +26,7 @@
 body {
     color: #2f2f2f;
     font-family: 'HelveticaNeueLTPro-Md';
+    background: #F0E4DD;
 }
 
 img {
@@ -499,7 +500,7 @@ body{
     width: 100%;
     border: 1px solid rgba(0,0,0,0.1);
     transition: .5s ease-in-out;
-    background-color: #F0E7E5;
+    background-color: white;
 
 }
 
