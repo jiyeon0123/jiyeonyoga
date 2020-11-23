@@ -207,7 +207,7 @@ a:hover, a:active {
 
 @media screen and (min-width: 576px){
     .site-title {
-        font-size: 112px;
+        font-size: 80px;
     }
 
     .site-description {
@@ -609,6 +609,7 @@ body{
     background: #fff;
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
+    
 }
 .nav-next{
     float: right;
@@ -616,6 +617,7 @@ body{
     text-align: center;
     position: relative;
     display: block;
+    margin-top: 50px;
 }
 
 .nav-previous{
@@ -624,6 +626,7 @@ body{
     text-align: center;
     position: relative;
     display: block;
+    margin-top: 50px;
 }
 
 .post-navigation a {
@@ -1209,6 +1212,9 @@ body{
 .sit-footer {
     padding-top: 100px;
     border-top: 1px solid #d8d8d8;
+    background-color: #f1dfde;
+    margin-top: 100px;
+    
 }
 
 .footer-post-wrap {
@@ -1263,6 +1269,8 @@ body{
         margin-bottom: 0;
     }
 }
+
+
 
 /*--------------------------------------------------------------
 # Footer Instagram
