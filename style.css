@@ -411,6 +411,8 @@ a:hover, a:active {
 }
 
 /*
+
+/*---------------------------------
 # Youtube Subscribe
 --------------------------------*/
 .yt-subscribe {
@@ -491,6 +493,7 @@ body{
     box-sizing: border-box;
     grid-gap: 30px;
     margin-top: 200px;
+    margin-bottom: 30px;
     
 }
 
@@ -503,6 +506,7 @@ body{
     box-sizing: border-box;
     grid-gap: 30px;  
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 
@@ -618,6 +622,7 @@ body{
     position: relative;
     display: block;
     margin-top: 50px;
+    bottom: 70px;
 }
 
 .nav-previous{
@@ -627,6 +632,7 @@ body{
     position: relative;
     display: block;
     margin-top: 50px;
+    bottom: 70px;
 }
 
 .post-navigation a {
@@ -916,6 +922,7 @@ body{
     height: 385px;
     margin-top: 40px;
     background-size: cover;
+
 }
 
 .page-header h1 {
@@ -923,6 +930,7 @@ body{
     font-family: 'BeyondTheMountains';
     color: #fff;
 }
+
 
 /*--------------------------------------------------------------
 # About Page
@@ -1108,67 +1116,6 @@ body{
     color: #afafaf;
 }
 
-/*--------------------------------------------------------------
-# Recent Blog Posts
---------------------------------------------------------------*/
-.recent-posts {
-    padding-top: 1px;
-    margin-top: 12px;
-}
-
-.recent-post-wrap {
-    margin-top: 42px;
-    text-align: center;
-}
-
-.recent-post-wrap .posted-date {
-    margin-top: 26px;
-    font-size: 11px;
-    letter-spacing: 0.08rem;
-    text-transform: uppercase;
-    color: #afafaf;
-}
-
-.recent-post-wrap figure {
-    margin: 0;
-}
-
-.recent-post-wrap figure img {
-    max-width: 100%;
-}
-
-.recent-post-wrap h3 {
-    margin-top: 2px;
-}
-
-.recent-post-wrap h3 a {
-    font-size: 18px;
-    color: #2f2f2f;
-}
-
-
-
-@media screen and (min-width: 576px) {
-    .recent-post-wrap {
-        text-align: left;
-    }
-}
-
-@media screen and (min-width: 576px) and (max-width: 992px) {
-    .recent-post-wrap {
-        display: flex;
-    }
-
-    .recent-post-wrap figure {
-        width: 260px;
-        margin: 0 60px 0 0;
-    }
-
-    .recent-post-wrap .entry-header {
-        width: calc(100% - 300px);
-    }
-}
-
 
 
 /*--------------------------------------------------------------
@@ -1206,123 +1153,6 @@ body{
     background: #fff;
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-.sit-footer {
-    padding-top: 100px;
-    border-top: 1px solid #d8d8d8;
-    background-color: #f1dfde;
-    margin-top: 100px;
-    
-}
-
-.footer-post-wrap {
-    margin-bottom: 60px;
-}
-
-.footer-post-wrap figure {
-    width: 185px;
-    margin: 0 30px 0 0;
-}
-
-.footer-post-wrap figure img {
-    display: block;
-    width: 100%;
-}
-
-.footer-post-cont {
-    width: calc(100% - 205px);
-}
-
-.footer-post-cont .posted-date {
-    margin-top: 20px;
-    font-size: 11px;
-    letter-spacing: 0.08rem;
-    text-transform: uppercase;
-    color: #afafaf;
-}
-
-.footer-post-cont h3 {
-    margin-top: 10px;
-    font-size: 18px;
-}
-
-.footer-post-cont h3 a {
-    color: #2f2f2f;
-}
-
-
-
-.footer-post-cont .read-more {
-    display: inline-block;
-    margin-bottom: 15px;
-    font-size: 14px;
-    color: #2f2f2f;
-    text-decoration: underline;
-    text-transform: capitalize;
-  
-}
-
-@media screen and (min-width: 1200px){
-    .footer-post-wrap {
-        margin-bottom: 0;
-    }
-}
-
-
-
-/*--------------------------------------------------------------
-# Footer Instagram
---------------------------------------------------------------*/
-.footer-instagram {
-    margin-top: 60px;
-    margin: 0 auto;
-    }
-    
-    .footer-instagram figure {
-    width: 33.333333%;
-    margin: 0;
-    }
-    
-    .footer-instagram figure img {
-    display: block;
-    width: 100%;
-    }
-    
-    @media screen and (min-width: 576px){
-    .footer-instagram figure {
-    width: 25%;
-    margin: 0;
-    }
-    }
-    
-    @media screen and (min-width: 768px){
-    .footer-instagram figure {
-    width: 20%;
-    margin: 0;
-    }
-    }
-    
-    @media screen and (min-width: 992px){
-    .footer-instagram figure {
-    width: auto;
-    margin: 0;
-    }
-    }
-    
-    @media screen and (min-width: 1200px){
-    .footer-instagram {
-    margin-top: 100px;
-    }
-    
-    .footer-instagram figure img {
-    display: block;
-    width: 100%;
-    min-width: 100%;
-    }
-    }
-
 
 
 /*--------------------------------------------------------------
@@ -1331,6 +1161,8 @@ body{
 .footer-bar {
     padding: 22px 0;
     background: #f1dfde;
+    padding-top: 150px;
+    margin-top: 100px;
 }
 
 .footer-copyright p {
