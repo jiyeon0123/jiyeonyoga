@@ -10,19 +10,19 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'BeyondTheMountains';
-    src: url('fonts/BeyondTheMountains.eot?#iefix') format('embedded-opentype'),
-    url('fonts/BeyondTheMountains.otf')  format('opentype'),
-    url('fonts/BeyondTheMountains.woff') format('woff'),
-    url('fonts/BeyondTheMountains.ttf')  format('truetype'),
-    url('fonts/BeyondTheMountains.svg#BeyondTheMountains') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 @import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap');
 
+@font-face {
+     src: url('fonts/Ballet\ Harmony.ttf');
+     font-family: 'Ballet Harmony'
+}
+
+@font-face {
+    src: url('fonts/aAutoSignature.ttf');
+    font-family: 'aAutoSignature'
+}
 
 
 body {
@@ -187,7 +187,7 @@ a:hover, a:active {
 
 .site-title {
     font-size: 72px;
-    font-family: 'BeyondTheMountains';
+    font-family: 'aAutoSignature';
 }
 
 .site-title a {
@@ -433,7 +433,7 @@ a:hover, a:active {
     padding: 0 15px;
     margin-top: 15px;
     font-size: 36px;
-    font-family: 'BeyondTheMountains';
+    font-family: 'Ballet Harmony';
     color: #2f2f2f;
 }
 
@@ -927,7 +927,7 @@ body{
 
 .page-header h1 {
     font-size: 72px;
-    font-family: 'BeyondTheMountains';
+    font-family: 'aAutoSignature';
     color: #fff;
 }
 
@@ -1004,80 +1004,7 @@ body{
 
 
 
-/*--------------------------------------------------------------
-# Contact Page
---------------------------------------------------------------*/
-.contact-page .content-wrap .entry-header {
-    text-align: left;
-}
 
-.contact-page .content-wrap .entry-content {
-    margin-top: 90px;
-}
-
-.contact-page-social ul {
-    padding: 0;
-    margin: 60px 0 0;
-    list-style: none;
-}
-
-.contact-page-social li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 32px;
-    height: 32px;
-    margin-right: 15px;
-    font-size: 18px;
-}
-
-.contact-page-social li a {
-    color: #bec4c9;
-    transition: all .35s;
-}
-
-.contact-page-social li a:hover {
-    color: #2f2f2f;
-}
-
-.contact-form {
-    margin-top: 90px;
-}
-
-.contact-form input[type="text"],
-.contact-form input[type="email"],
-.contact-form textarea {
-    display: block;
-    width: 100%;
-    padding: 20px 32px;
-    margin-bottom: 8px;
-    border: 0;
-    font-size: 12px;
-    font-style: italic;
-    line-height: 1;
-    color: #aeaeae;
-    background: #efefef;
-    outline: none;
-}
-
-.contact-form input[type="submit"] {
-    display: block;
-    width: 200px;
-    padding: 20px 0;
-    margin-top: 60px;
-    border: 0;
-    font-size: 14px;
-    color: #fff;
-    line-height: 1;
-    background: #2f2f2f;
-}
-
-@media screen and (min-width: 768px){
-    .contact-page-social li {
-        margin-right: 65px;
-        font-size: 24px;
-    }
-}
 
 /*--------------------------------------------------------------
 # Sidebar
