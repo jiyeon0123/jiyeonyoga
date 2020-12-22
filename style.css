@@ -776,6 +776,14 @@ body{
 
 }
 
+.single-page .content-wrap .entry-content p11 {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Nanum Myeongjo';
+    color: #2f2f2f;
+
+
+}
 
 .single-page .blockquote-text {
     padding-left: 114px;
